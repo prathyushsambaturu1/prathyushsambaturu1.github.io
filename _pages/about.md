@@ -7,9 +7,11 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I’m a Postdoctoral Researcher Associate in Department of Computer Science at the University of Oxford. My primary research areas include combinatorial optimisation, algorithmic game theory, computational epidemiology, network science with applications in public health, economics, and climate change.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+Earlier, I worked as Postdoctoral Research Assistant in the Department of Biology at the University of Oxford. I have a Ph.D. in Computer Science at the University of Virginia (UVA) under the guidance of Prof. Anil Vullikanti, with an affiliation to the Biocomplexity Institute and Initiative, UVA. Before that, I completed a Master of Science (MS) by Research in Computer Science at IIIT Hyderabad under the guidance of Prof. Kamalakar Karlapalem and Prof. Kishore Kothapalli.
+
+
 
 A data-driven personal website
 ======
