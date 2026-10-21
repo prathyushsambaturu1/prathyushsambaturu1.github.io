@@ -36,3 +36,37 @@
     "layout/archive",
     "layout/sidebar"
 ;
+
+
+/* Wider academic profile sidebar — desktop only */
+
+@include breakpoint($large) {
+
+  /* Double sidebar width */
+  .sidebar {
+    @include span(4 of 12);
+    max-width: none;
+    padding-right: 25px;
+    box-sizing: border-box;
+  }
+
+  /* Enlarge the profile photograph */
+  .sidebar .author__avatar img {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+
+  /* Shift ordinary page content to the right */
+  .page {
+    @include span(8 of 12 last);
+    @include prefix(0.5 of 12);
+    @include suffix(0);
+  }
+
+  /* Shift archive pages such as Publications */
+  .archive {
+    @include span(8 of 12 last);
+    @include prefix(0.5 of 12);
+  }
+}
