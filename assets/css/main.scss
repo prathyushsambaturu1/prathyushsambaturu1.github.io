@@ -117,4 +117,29 @@
     line-height: 1.6;
   }
 
+   
+/* Sidebar biography text formatting */
+@media screen and (min-width: 1024px) {
+
+  #main .sidebar .author__content {
+    width: 100%;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  #main .sidebar .author__bio {
+    font-size: 0.95em;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+    white-space: normal;
+  }
+
+  #main .sidebar .author__name {
+    line-height: 1.35;
+    overflow-wrap: break-word;
+  }
+}
+
+
 }
