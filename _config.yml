@@ -25,10 +25,10 @@ author:
   # Biographic information
   avatar           : "prathyush.jpg"
   name             : "Prathyush Sambaturu"
-  pronouns         : # example: "she/her"  
+  pronouns         :
   bio              : "Postdoctoral Research Associate<br><a href="https://www.cs.ox.ac.uk/">Department of Computer Science</a><br><a href="https://www.ox.ac.uk/">University of Oxford</a>"
   location         : "214, Wolfson Building"
-  employer         : "University of Oxford"
+  employer         : 
   uri              : # URL
   email            : "prathyush.sambaturu@cs.ox.ac.uk" 
   
