@@ -322,3 +322,52 @@
     }
   }
 }
+
+
+/* More room for profile text and links */
+
+@media screen and (min-width: 1024px) {
+
+  /* Allow name and bio to use full sidebar width */
+  #main .sidebar .author__content {
+    display: block;
+    width: 100%;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+  }
+
+  /* More breathing room around the name */
+  #main .sidebar .author__name {
+    margin-top: 18px;
+    margin-bottom: 12px;
+    line-height: 1.35;
+  }
+
+  /* Improve bio spacing and readability */
+  #main .sidebar .author__bio {
+    margin-top: 12px;
+    margin-bottom: 22px;
+    line-height: 1.6;
+    white-space: normal;
+  }
+
+  /* Let contact links use available width */
+  #main .sidebar .author__urls-wrapper,
+  #main .sidebar .author__urls {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+  }
+
+  /* Allow long affiliations and links to wrap */
+  #main .sidebar .author__urls li {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.5;
+  }
+
+}
+
