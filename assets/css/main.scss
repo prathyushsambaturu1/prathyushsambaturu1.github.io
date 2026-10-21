@@ -71,3 +71,50 @@
   }
 
 }
+
+
+/* More space for text below profile picture */
+
+@media screen and (min-width: 1024px) {
+
+  /* Name and biography use full sidebar width */
+  #main .sidebar .author__content {
+    display: block;
+    width: 100%;
+    max-width: none;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+  }
+
+  /* Name spacing */
+  #main .sidebar .author__name {
+    margin-top: 18px;
+    margin-bottom: 12px;
+    line-height: 1.4;
+  }
+
+  /* Biography spacing */
+  #main .sidebar .author__bio {
+    margin-top: 12px;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    overflow-wrap: break-word;
+  }
+
+  /* Contact links use the full width */
+  #main .sidebar .author__urls-wrapper,
+  #main .sidebar .author__urls {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+  }
+
+  /* Allow long contact details to wrap */
+  #main .sidebar .author__urls li {
+    white-space: normal;
+    overflow-wrap: anywhere;
+    line-height: 1.6;
+  }
+
+}
